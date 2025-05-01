@@ -27,22 +27,11 @@ This repository includes:
 
 ## 📚 Repository Structure
 
-- **[hunting-queries](#hunting-queries)**
-  
-  Detection rules and KQL hunting queries for use with Microsoft Defender and Azure Sentinel, aligned to known threat techniques.
+- [📊 hunting-queries/](#hunting-queries) – KQL queries for Defender and Sentinel.
+- [🧪 investigations/](#investigations) – Threat investigations with MITRE ATT&CK mapping and IOCs.
+- [📬 vuln-briefings/](#vuln-briefings) – Vendor vulnerability analysis.
+- [📄 threat-reports/](#threat-reports) – Formal PDF/MD reports.
 
-- **[Investigations](#investigations)**
-  
-  Technical threat investigations organized by campaign or threat actor. Each case includes:
-  Summary and objectives
-  Curated indicators of compromise (IOCs)
-  MITRE ATT&CK mapping of TTPs
-  
-- **[Vulnerability Briefings](#vulnerability-briefings)**
-  
-  Analytical summaries of vendor security advisories, focused on applicability, context, and remediation priorities.
-  
-- **[👩‍💻 About Me](#about-me)**
-- **[📜 License](#license)**
+## About me
 
-
+## License
