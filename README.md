@@ -27,10 +27,10 @@ This repository includes:
 
 ## 📚 Repository Structure
 
-- [📊 hunting-queries/](#hunting-queries) – KQL queries for Defender and Sentinel.
-- [🧪 investigations/](#investigations) – Threat investigations with MITRE ATT&CK mapping and IOCs.
-- [📬 vuln-briefings/](#vuln-briefings) – Vendor vulnerability analysis.
-- [📄 threat-reports/](#threat-reports) – Formal PDF/MD reports.
+- hunting-queries – KQL queries for Defender and Sentinel.
+- investigations – Threat investigations with MITRE ATT&CK mapping and IOCs.
+- vuln-briefings – Vendor vulnerability analysis.
+- threat-reports – Formal PDF/MD reports.
 
 ## About me
 
