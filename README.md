@@ -33,5 +33,19 @@ This repository includes:
 - threat-reports – Formal PDF/MD reports.
 
 ## About me
+Hi! I'm a  cybersecurity professional from the Dominican Republic with a focus on **Threat Intelligence** and **Vulnerability Management**.
+I specialize in:
+- Analyzing threat actor activity and real-world campaigns.
+- Mapping TTPs using the MITRE ATT&CK framework.
+- Developing threat-informed hunting queries and detection logic.
+- Interpreting vendor vulnerability bulletins to support remediation decisions.
+This repository is a reflection of my technical work and continuous learning. It also aims to contribute to the community by sharing curated content and actionable insights for defenders, analysts, and incident response teams.
+
+## 📫 Contact Me
+
+If you'd like to collaborate, give feedback, or discuss anything related to Threat Intelligence or cybersecurity, feel free to reach out:
+- 🌐 LinkedIn: [www.linkedin.com/in/yamilet-cruz)
+- 📧 Email: yamilithia@gmail.com
 
 ## License
+
