@@ -16,27 +16,6 @@ This chart displays the number of new victims added to the panel each month. Not
 
 ---
 
-##  2. Affiliate Last Seen Activity (Weekly)
-
-
-This visualization shows how many affiliates were last active during each week. It reflects the life cycle and engagement level of users operating within the RaaS model.
-
-- Regular activity suggests consistent onboarding and handoff of victims.
-- Inactivity periods might signal law enforcement pressure or operational pauses.
-
----
-
-## 3. Avg. Time Between Messages per Victim
-
-
-This histogram reveals how long, on average, LockBit affiliates took between messages during negotiations with each victim. It provides insight into:
-
-- Pressure tactics used to engage or threaten victims
-- Possible automation (e.g., scripted follow-ups)
-- Victim responsiveness (faster replies may reduce gaps)
-
----
-
 ## MITRE ATT&CK Techniques Observed
 
 Based on behaviors inferred from the dataset and LockBit’s known modus operandi, the following ATT&CK techniques are relevant:
