@@ -54,10 +54,13 @@ El martes 14 de mayo de 2025, Microsoft publicó actualizaciones de seguridad qu
 | CVE-2025-47733  | Microsoft Power Apps       | Server-Side Request Forgery     | 9.x  |
 
 ---
+## Related Hunting Queries
 
-## Recomendaciones generales
-
-Working... 
+For in-depth detection logic and hunting rules associated with each actively exploited zero-day, refer to the following detection files under the `/hunting-queries/patch-tuesday/` folder:
+- **CVE-2025-30400 – dwmcore.dll (LPE):** [`2025-05-CVE-2025-30400.md`](../hunting-queries/patch-tuesday-may-2025.md/2025-05-CVE-2025-30400.md)
+- **CVE-2025-32701 & 32706 – clfs.sys (LPE):** [`2025-05-CVE-2025-32701-32706.md`](../hunting-queries/patch-tuesday-may-2025.md/2025-05-CVE-2025-32701-32706.md)
+- **CVE-2025-32709 – afd.sys (LPE):** [`2025-05-CVE-2025-32709.md`](../hunting-queries/patch-tuesday-may-2025.md/2025-05-CVE-2025-32709.md)
+- **CVE-2025-30397 – jscript9.dll (RCE):** [`2025-05-CVE-2025-30397.md`](../hunting-queries/patch-tuesday-may-2025.md/2025-05-CVE-2025-30397.md)
 
 ---
 
