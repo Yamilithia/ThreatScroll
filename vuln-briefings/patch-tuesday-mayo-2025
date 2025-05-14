@@ -1,0 +1,69 @@
+# Patch Tuesday - May 2025 (Microsoft)
+
+## Overview
+
+On Tuesday, May 14, 2025, Microsoft released security updates addressing a total of 83 vulnerabilities, including 5 zero-days actively exploited and 2 publicly disclosed zero-days. Several critical flaws affect components such as Azure DevOps, Power Apps, Visual Studio, and the Windows operating system.
+
+---
+
+## Vulnerability Summary
+
+| Vulnerability Type                | Count |
+|----------------------------------|--------|
+| Privilege Escalation             | 20     |
+| Remote Code Execution            | 28     |
+| Information Disclosure           | 16     |
+| Denial of Service                | 7      |
+| Spoofing                         | 3      |
+| Security Feature Bypass          | 2      |
+
+- Actively exploited zero-days: 5  
+- Publicly disclosed zero-days: 2  
+- Critical vulnerabilities: 11
+
+---
+
+## Actively Exploited Zero-days
+
+| CVE             | Component                  | Impact                    |
+|-----------------|----------------------------|----------------------------|
+| CVE-2025-30400  | dwmcore.dll (DWM Core)     | Privilege Escalation       |
+| CVE-2025-32701  | clfs.sys (CLFS)            | Privilege Escalation       |
+| CVE-2025-32706  | clfs.sys (CLFS)            | Privilege Escalation       |
+| CVE-2025-32709  | afd.sys (WinSock)          | Privilege Escalation       |
+| CVE-2025-30397  | Microsoft Scripting Engine | Remote Code Execution      |
+
+---
+
+## Publicly Disclosed Zero-days
+
+| CVE             | Component                  | Impact                    |
+|-----------------|----------------------------|----------------------------|
+| CVE-2025-26685  | Defender for Identity      | Spoofing                   |
+| CVE-2025-32702  | Visual Studio              | Remote Code Execution      |
+
+---
+
+## Critical Cloud Vulnerabilities
+
+| CVE             | Affected Service           | Vulnerability Type              | CVSS |
+|-----------------|----------------------------|----------------------------------|------|
+| CVE-2025-29813  | Azure DevOps               | Privilege escalation via token  | 10.0 |
+| CVE-2025-29827  | Azure Automation           | Privilege Escalation            | 9.x  |
+| CVE-2025-29972  | Azure Storage RP           | Server-Side Request Forgery     | 9.x  |
+| CVE-2025-47733  | Microsoft Power Apps       | Server-Side Request Forgery     | 9.x  |
+
+---
+
+## General Recommendations
+
+Working...
+
+---
+
+## References
+
+- https://msrc.microsoft.com/update-guide/en-us/releaseNote/2025-May
+- Microsoft Patch Tuesday – May 2025 (BleepingComputer): https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2025-patch-tuesday-fixes-5-exploited-zero-days-72-flaws/
+- Tenable Analysis: https://www.tenable.com/blog/microsofts-may-2025-patch-tuesday-addresses-71-cves-cve-2025-32701-cve-2025-32706
+
